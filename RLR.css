@@ -1,0 +1,45 @@
+
+    body{background-color: rgb(117, 115, 115);}
+   
+    *{  border: 0px;
+        margin: 0px;
+        padding: 0px;}
+    #admin{background-color: rgb(125, 247, 125);
+    border: 35px solid gray;
+    border-bottom-right-radius: 155px;
+    border-top-left-radius: 155px;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+    margin: 80px auto ;}
+
+div h1{background-color: gray;margin-left: 50px; border-radius: 10px;
+    font-family: arial;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: whitesmoke;}
+label{font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 5px auto;
+}
+label,input{display: block;
+    width: 95%;
+}
+input{padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px dashed;
+    border-radius: 5px;
+    outline: 0px;
+    }
+input[type="submit"] {background-color: black; 
+    color: white; margin-top: 15px; 
+    font-size: 18px; border:8px solid gray;
+    border-radius: 25px;}
+
+input[type="submit"]:hover{background-color: rgb(158, 65, 2);
+    color: gold; 
+    transition: ease-in-out 0.8s;}
+
+p a{color: brown; font-size: 18px; text-decoration: none;}
+    
